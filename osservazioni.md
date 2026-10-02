@@ -2,26 +2,26 @@
 
 Gruppo:
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (Francesco Luca, Rachele Giordano  e FrancescoLuca-cpu, Rachele):
 
-URL del repository condiviso:
+URL del repository condiviso: https://github.com/FrancescoLuca-cpu/es0.git
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2: Ci siamo divisi i comandi
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione:gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
 
-Comando di esecuzione e risultato osservato:
+Comando di esecuzione e risultato osservato:./hello stampa di "Hello, computational physics!"
+ 
+Che cosa ho capito su sorgente ed eseguibile: hello.c corrisponde alla sorgente e hello all'eseguibile. Se la sorgente viene modificata e non ricompilata, l'output non riporta le modifiche perche senza compilazione l'eseguibile non viene modificato
 
-Che cosa ho capito su sorgente ed eseguibile:
+Output richiesto e comportamento del programma prima della modifica: Prima dell'aggiunta del comando printf, il file compilava ma non stampava il messaggio richiesto.
 
-Output richiesto e comportamento del programma prima della modifica:
-
-Esito dopo la modifica e spiegazione della correzione:
+Esito dopo la modifica e spiegazione della correzione: Dopo aver aggiunto l'istruzione di stampa, aver compilato la sorgente hello.c ed eseguito hello, il terminale mostrava il messaggio richiesto "Hello, computational physics!". Inoltre, modificando il messaggio nel comando printf senza ricompilare, l'output non riportava le modifiche.
 
 ## Step 1 — Git
 
