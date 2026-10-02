@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[], double argf)
 {
     if (argc != 4) {
         fprintf(stderr, "Uso: %s TESTO INTERO REALE\n", argv[0]);
@@ -9,7 +9,9 @@ int main(int argc, char *argv[])
     }
 
     char *testo = argv[1];
-
+    int atoi ( const char* str );
+    double atof( const char* str );
+    
     /* TODO: converti gli argomenti in tipi appropriati. Usa atoi o atof
     * prendi ispirazione da:
     * https://en.cppreference.com/c/string/byte/atoi e 
