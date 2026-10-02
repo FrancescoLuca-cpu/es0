@@ -25,11 +25,11 @@ Esito dopo la modifica e spiegazione della correzione: Dopo aver aggiunto l'istr
 
 ## Step 1 — Git
 
-Quali file ho incluso nel commit e perché:
+Quali file ho incluso nel commit e perché: Nel commit abbiamo incluso hello.c e osserazioni.md, per riportare le modifiche ai file
 
-Come ho verificato che la versione provata sia presente su GitHub:
+Come ho verificato che la versione provata sia presente su GitHub: Con il comando git status.
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: Dopo git pull le modifiche vengono scaricate e integrate automaticamente aggiornando i file nella cartella di lavoro all'ultima versione disponibile sul server. Non serve eseguire un nuovo git clone perche questo comando scarica l'intero repository solo la prima volta. Git pull permette invece di scaricare solo le differenze e i nuovi commit in modo rapido 
 
 ## Step 2 — Eco: prima prova
 
